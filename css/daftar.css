@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-login form input[type=text]{
+	width: 400px;
+	height: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+}
+.form-login form input[type=password]{
+	width: 400px;
+	height: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.form-login button[type=submit] {
+	width: 420px;
+	border: none;
+	margin-top: 20px;
+	height: 40px;
+	cursor: pointer;
+	font-family: "antic-slab";
+	background: #1C3266;
+	color: white;
+	transition: 0.2s ease;
+}
+
+.tombol
+{
+	width: 420px!important;
+	font-family: "antic-slab";
+}

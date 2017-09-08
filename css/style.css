@@ -1,0 +1,112 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+}
+body{
+	padding-top: 150px;
+	background: url(../image/login-background-8f921a55-1080x675.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+p{
+	color: #fff;
+	text-align: center;
+}
+.bungkus{
+	width: 500px;
+	height: auto;
+	margin-bottom: 100px;
+	box-shadow: 1px 1px 2px 2px black;
+	background: #171D23;
+	padding: 20px;
+}
+.bungkus-form{
+	width: 500px;
+	height: auto;
+}
+.bungkus-form h1{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.form-login{
+	width: 400px;
+	height:auto;
+	margin: auto;
+}
+.form-login form p{
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.text-form{
+	float: left;
+}
+.form-login form input[type=text]{
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+}
+.form-login form input[type=password]{
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+}
+.form-login button[type=submit] {
+	width: 400px;
+	border: none;
+	margin-top: 20px;
+	height: 40px;
+	cursor: pointer;
+	background: #1C3266;
+	color: white;
+	transition: 0.2s ease;
+}
+
+.form-login button[type=submit]:hover
+{
+	background: #0E4794;
+}
+
+
+.bungkus-form .text{
+	text-align: center;
+	margin-top: 10px;
+}
+.bungkus-form .text a{
+	color: #C9C9C9;
+	text-decoration: none;
+	font-size: 18px;
+	transition: 0.2s ease-in-out;
+}
+.bungkus-form .text a:hover{
+	color : white;
+}
+
+.form-login .tombol {
+	width: 400px;
+	border: none;
+	margin-top: 20px;
+	height: 40px;
+	border-radius: 5px;
+	background: #1C3266;
+	font-size: 20px;
+	color: #fff;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+	cursor: pointer;
+}
+.tombol-login{
+	text-decoration: none;
+}
+.tombol-login .tombol:hover{
+	background: #0E4794;
+}
